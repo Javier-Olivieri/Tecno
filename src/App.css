@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  color: #262528;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  list-style: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  font-weight: 600;
+  font-size: 1.7rem;
 }
-
-.App-link {
-  color: #61dafb;
+.myContainer {
+  margin: 2rem 5rem !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ms-7 {
+  margin-left: 5rem !important;
+}
+div#root {
+  display:flex; 
+  flex-direction:column;
+  height: 100vh;
+}
+.btn-show:focus {
+  box-shadow: 0 0 0 0;
+}
+.modal-dialog {
+  max-width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.account{
+  width: 25%;
+}
+.account > li{
+  font-size: 1.5rem;
+}
+.account > li:hover{
+  color: #e83630;
+  cursor: pointer;
+}
+.red{
+  color: #e83630 !important;
+}
+.my-btn {
+  width: 180px;
+  height: 3rem;
+  font-size: 1.5rem;
 }
