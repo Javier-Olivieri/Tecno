@@ -43,10 +43,10 @@ const CartList = () => {
             return (
               <tr key={prod.itemId}>
                 <th scope="row">{prod.item.name}</th>
-                <td className="text-center">$ {prod.item.price.toFixed(2)}</td>
+                <td className="text-center">U$S {prod.item.price.toFixed(2)}</td>
                 <td className="text-center">{prod.quantity}</td>
                 <td className="text-center">
-                  ${" "}
+                  U$S{" "}
                   {(Number(prod.item.price) * Number(prod.quantity)).toFixed(2)}
                 </td>
                 <td className="text-center remove-item">
@@ -62,7 +62,7 @@ const CartList = () => {
             <td />
             <td />
             <td />
-            <td className="text-center">TOTAL: $ {total.toFixed(2)}</td>
+            <td className="text-center">TOTAL: U$S {total.toFixed(2)}</td>
           </tr>
         </tfoot>
       </table>

@@ -59,10 +59,10 @@ const SearchOrder = () => {
                         return (
                             <tr key={prod.itemId}>
                                 <th scope="row">{prod.item.name}</th>
-                                <td className="text-center">$ {prod.item.price.toFixed(2)}</td>
+                                <td className="text-center">U$S {prod.item.price.toFixed(2)}</td>
                                 <td className="text-center">{prod.quantity}</td>
                                 <td className="text-center">
-                                    ${" "}
+                                    U$S{" "}
                                     {(Number(prod.item.price) * Number(prod.quantity)).toFixed(2)}
                                 </td>
                             </tr>
@@ -74,7 +74,7 @@ const SearchOrder = () => {
                         <td />
                         <td />
                         <td />
-                        <td className="text-center">TOTAL: $ {priceTotal.toFixed(2)}</td>
+                        <td className="text-center">TOTAL: U$S {priceTotal.toFixed(2)}</td>
                     </tr>
                 </tfoot>
             </table></div>

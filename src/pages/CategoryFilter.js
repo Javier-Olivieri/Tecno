@@ -29,7 +29,7 @@ const CategoryFilter = () => {
 
   return (
     <>
-      <h2 className="mt-4 ms-7">{categoryName} Tecno-Plus</h2>
+      <h2 className="mt-4 ms-7">{categoryName} Bienvenidos</h2>
       {categoryName === "404" 
       ? <NotFound />
       : <ItemsListContainer filtro={keyName} />}

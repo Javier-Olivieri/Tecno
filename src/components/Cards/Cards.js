@@ -25,7 +25,7 @@ const Cards = ({
           <h3 className="productName">
             <Link to={`/product/${id}`}>{name}</Link>
           </h3>
-          <span className="productPrice">${price.toFixed(2)}</span>
+          <span className="productPrice">U$S{price.toFixed(2)}</span>
         </div>
         {/* Botones */}
         <div className="productButtons">
