@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d1b2ed7.css",
-    "main.js": "/static/js/main.61b5109c.js",
-    "index.html": "/index.html",
-    "main.4d1b2ed7.css.map": "/static/css/main.4d1b2ed7.css.map",
-    "main.61b5109c.js.map": "/static/js/main.61b5109c.js.map"
+    "main.css": "/Tecno-Plus/static/css/main.4d1b2ed7.css",
+    "main.js": "/Tecno-Plus/static/js/main.f3323238.js",
+    "index.html": "/Tecno-Plus/index.html",
+    "main.4d1b2ed7.css.map": "/Tecno-Plus/static/css/main.4d1b2ed7.css.map",
+    "main.f3323238.js.map": "/Tecno-Plus/static/js/main.f3323238.js.map"
   },
   "entrypoints": [
     "static/css/main.4d1b2ed7.css",
-    "static/js/main.61b5109c.js"
+    "static/js/main.f3323238.js"
   ]
 }
