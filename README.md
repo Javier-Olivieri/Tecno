@@ -29,3 +29,7 @@ Uso de React Router Dom para la navegación
 
 Uso de FireBase para persistencia de datos
 
+Autor
+Javier Olivieri
+
+2022 - React
