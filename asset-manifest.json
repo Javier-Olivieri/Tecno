@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tecno/static/css/main.4d1b2ed7.css",
+    "main.js": "/Tecno/static/js/main.7c9c64ab.js",
+    "index.html": "/Tecno/index.html",
+    "main.4d1b2ed7.css.map": "/Tecno/static/css/main.4d1b2ed7.css.map",
+    "main.7c9c64ab.js.map": "/Tecno/static/js/main.7c9c64ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d1b2ed7.css",
+    "static/js/main.7c9c64ab.js"
+  ]
+}
