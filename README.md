@@ -47,7 +47,7 @@ Uso de FireBase para persistencia de datos
 
 ## Aplicación en funcionamiento
 
-
+<img src = "https://github.com/Javier-Olivieri/Tecno/blob/master/Tecno-plus_%20Javier%20Olivieri%20-%20Google%20Chrome%202022-01-21%2011-12-46.gif " alt ="gif">
 
 ### Autor
 Javier Olivieri
